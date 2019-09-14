@@ -24,18 +24,18 @@ sudo apt install php-cli
 
 #Virtual Hosting Setup
 #
-#your_domain=the domain name
+your_domain=test_site
 #
-#sudo mkdir /var/www/$your_domain
-#sudo chown -R $USER:$USER /var/www/$your_domain
-#sudo chmod -R 755 /var/www/$your_domain
+sudo mkdir /var/www/$your_domain
+sudo chown -R $USER:$USER /var/www/$your_domain
+sudo chmod -R 755 /var/www/$your_domain
 #
-#cat > /var/www/$your_domain/index.html <<EOL
-#<html>
-#    <head>
-#        <title>Welcome to $your_domain!</title>
-#    </head>
-#    <body>
-#        <h1>Success! The $your_domain server block is working!</h1>
-#    </body>
-#</html>
+sudo cat > /var/www/$your_domain/index.html <<EOL
+<html>
+    <head>
+        <title>Welcome to $your_domain!</title>
+    </head>
+    <body>
+        <h1>Success! The $your_domain server block is working!</h1>
+    </body>
+</html>
